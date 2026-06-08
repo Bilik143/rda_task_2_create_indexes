@@ -1,5 +1,5 @@
 USE ShopDB;
 
-CREATE INDEX Name ON Products(Name);
+CREATE INDEX idx_product_name ON Products(Name);
 
-CREATE INDEX Email ON Customers(Email);
+CREATE INDEX idx_customers_email ON Customers(Email);
